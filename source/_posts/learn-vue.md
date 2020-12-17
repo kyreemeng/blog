@@ -2,9 +2,8 @@
 title: Vue学习笔记（基础一）
 date: 2019-12-21 
 tags:
-    - 前端
-    - 学习
     - Vue
+categories: 前端
 index_img: http://img.datalearn.top/vue-index.jpeg
 banner_img: http://img.datalearn.top/vue-index.jpeg
 ---

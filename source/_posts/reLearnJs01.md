@@ -2,8 +2,8 @@
 title: 【重学JavaScript】js中的变量和数据类型
 date: 2020-08-16
 tags:
-      - 编程
-categories: JavaScript
+      - JavaScript
+categories: 前端
 index_img: http://img.datalearn.top/javascript.png
 banner_img: http://img.datalearn.top/javascript.png
 ---
