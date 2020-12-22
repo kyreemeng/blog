@@ -3,9 +3,7 @@ title: 毕业两年后离职的一些感想
 date: 2019-07-10
 tags:
       - 工作
-      - 职场
-categories: 日常牢骚
-keywords: '离职，工作,职场'
+categories: 生活记录
 index_img: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576945397016&di=4b7f5dd9d65c391d915838812f19e30e&imgtype=0&src=http%3A%2F%2Fp0.ssl.cdn.btime.com%2Ft01e1690d9161992645.jpg%3Fsize%3D440x322
 ---
 ### 怎么进入公司的

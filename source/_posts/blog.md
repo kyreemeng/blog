@@ -2,7 +2,8 @@
 title: 关于这个博客
 date: 2020-12-17
 tags:
-    - 杂谈
+    - 反思
+categories: 生活记录
 index_img: /img/default.png
 ---
 ## 建立博客的初衷
