@@ -264,7 +264,59 @@ console.log(typeof(false))  //boolean
 let sym = Symbol()
 console.log(typeof(sym))  //symbol
 console.log(typeof(undefined)) //undefined
-console.log(typeof(null))  //object
+console.log(typeof(null))  //object 
 console.log(typeof({name:'kyree',age:18}))  //object
 ```
+特殊值null被认为是一个对空对象的引用。
 
+## Undefined类型
+
+Undefined类型只有一个值，就是**undefined**，当使用var或let声明了变量但没有初始化的时候，就相当于给变量赋予了undefined值：
+
+```js
+let test3;
+console.log(test3==undefined) //true
+console.log(test3===undefined) //true
+
+//undefined 是一个假值
+if (test3) { 
+// 这个块不会执行
+}
+if (!test3) { 
+// 这个块会执行
+}
+
+```
+
+## Null类型
+
+Null类型只有一个值，就是特殊值null。逻辑上讲，null值表示一个空对象指针，所以给typeof传null会返回"object"的原因：
+
+```js
+ let car = null;
+ console.log(typeof car);  // "object"
+```
+在定义将来要保存对象值的变量时，建议使用null来初始化，有利于节约内存和后期检查。
+undefined的值是由null值派生二来的，所以ECMA-262将它们定义为表面上相等
+
+```js
+console.log(null == undefined);  //true
+```
+undefined不需要显示地将变量值设置为undefined，但null可以，声明变量的时候，可以用null来填充该变量。
+
+```js
+let test4=null;
+
+if (test4) { 
+// 这个块不会执行
+}
+if (!test4) { 
+// 这个块会执行
+}
+```
+
+## Boolean类型
+ 
+ Boolean类型有两个字面值：true和false。
+ 虽然布尔值只有两个，但是所有其他ECMAScript类型的值都有相应布尔值的等价形式。要将一个其它类型的值转换为布尔值
+ 
